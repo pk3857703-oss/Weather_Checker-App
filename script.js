@@ -2,7 +2,7 @@ async function getWeather() {
 
     const city = document.querySelector("#inp").value;
 
-    const response = await fetch(`http://localhost:3000/weather?city=${city}`);
+   const response = await fetch(`https://weather-checker-app-backend.onrender.com/weather?city=${city}`);
     const data = await response.json();
 
     console.log(data); // IMPORTANT: check in browser console
