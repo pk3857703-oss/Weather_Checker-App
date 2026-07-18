@@ -1,0 +1,25 @@
+body{ 
+    text-align: center;
+    color: #bb7f7f;
+    font-family: fantasy;
+    background:beige;
+    
+}
+#btn{
+    background-color:rgb(198, 116, 108);
+    border: none;
+    border-radius: .2rem;
+    transition: all .2s ease-in-out;
+}
+#btn:hover{
+    transform: scale(1.03);
+    box-shadow: 0 3px 10px rgb(198, 116, 108);
+    background: black;
+    color:  rgb(243, 247, 243);
+}
+.nav{
+    margin: -2.3rem;
+    height: 3rem;
+    width: auto;
+    background: #000;
+}
