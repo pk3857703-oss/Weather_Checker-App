@@ -1,12 +1,29 @@
 body{ 
     text-align: center;
-    color: #bb7f7f;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(248, 245, 245);
     font-family: fantasy;
-    background:beige;
+    background:rgb(13, 13, 13);
     
 }
+h1{   display: inline-block;
+  transform-origin: top center; 
+    font-size: 70px;
+    color: #e5e5e5;
+    
+    
+}
+label{
+    padding-right: 40px;
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(3, 3, 3);
+}
 #btn{
-    background-color:rgb(198, 116, 108);
+    height: 25px;
+    /* width: ; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:rgb(115, 168, 180);
     border: none;
     border-radius: .2rem;
     transition: all .2s ease-in-out;
@@ -14,12 +31,35 @@ body{
 #btn:hover{
     transform: scale(1.03);
     box-shadow: 0 3px 10px rgb(198, 116, 108);
-    background: black;
+background-color:#40cce4;
     color:  rgb(243, 247, 243);
 }
-.nav{
-   margin: -2.5rem;
-    height: 3rem;
-    width: auto;
-    background: #000;
+#btn:active{
+background: #8a8989;
 }
+.hero{
+    
+background: #6ad5ff;
+    height: 350px;
+    width:400px;
+    border-radius: 5px;
+}
+#show{
+    border-radius: 5px;
+    background: #e6e6e6;
+    /* width: 250px; */
+    color: black;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+input{
+    border-radius: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 20px;
+     transition: all .2s ease-in-out;
+    /* padding-right: 50px; */
+}
+input:hover{
+      box-shadow: 0 3px 10px rgb(39, 39, 39);
+     transform: scale(1.02);
+}
+
